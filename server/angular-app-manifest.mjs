@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/portfolio/',
+  baseHref: 'https://tejkiran123.github.io/latestPortfolio/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/portfolio"
+    "route": "/latestPortfolio"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 506, hash: '2516f60f6a8ff7f77bc385759730dc024374ced772f0bd7329c306ccaf0bc3ff', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1019, hash: 'ae9532415ca4610f8f4ff80f6c2f29339c47a3f38f44d7edb7ea366e7d40e13b', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 12462, hash: '94e026b70f07110fab8f016506343c328a7e88fcaa4e631eeb9fadf6467724e3', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 541, hash: '776a0ee7c510e323d073ea40f7634e13fd10cbcb416568dfb828e9efd20cf479', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1054, hash: '4d8e19cd283e2fcd2097fd59d08b383f7efa98d6c17ca0b59dca3503e51e3bec', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 12497, hash: 'eaad237f431f0966f40fb8f787eb122140c31b48b2692c5b4eb734656bb2a047', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
