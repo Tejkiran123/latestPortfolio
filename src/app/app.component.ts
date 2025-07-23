@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { CommonModule } from '@angular/common';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [CommonModule, RouterLink]
+  imports: [CommonModule, RouterLink, MatIconModule]
 })
 export class AppComponent implements OnInit {
 
@@ -16,7 +17,7 @@ export class AppComponent implements OnInit {
   title = 'kiranprofile';
   emailId: string ="kavalitejkiran123@gmail.com"
   phoneNumber: string = '+91-8096676791'
-  linkdIn: string = 'tejkiran.linkdin'
+  linkdIn: string = 'tejkiran.linkedin'
   professionalSummary: string = 'PROFESSIONAL SUMMARY'
   languages:string = 'Languages:'
   progarmmingLangs: string = ` JavaScript, TypeScript, HTML5, CSS3`
@@ -57,3 +58,4 @@ export class AppComponent implements OnInit {
     })
   }
 }
+

@@ -14,6 +14,7 @@
     }
 }
 .info{
+
     display: flex;
     gap:40px;
     justify-content: center;
@@ -42,4 +43,28 @@
     margin-top: 1rem;
     margin-bottom: 0.7rem;
     font-weight: 600;
+}
+@media only screen and (max-width: 750px){
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px !important
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 815px) {
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px !important
+    }
+}
+.imgFile{
+    position: absolute;
+    width: 18px;
+    margin-left: -1.7rem;
+    top: 2px;
+}
+.informationContent{
+    position: relative;
+    margin-right: 1rem;
 }
