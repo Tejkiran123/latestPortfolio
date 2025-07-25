@@ -57,5 +57,6 @@ export class AppComponent implements OnInit {
       this.expDetails2 = exp2;
     })
   }
+  
 }
 
